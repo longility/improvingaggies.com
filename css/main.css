@@ -30,6 +30,13 @@ body {
     padding-right: 15px;
 }
 
+@media (max-width: 320px) {
+    .list-inline>li {
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
 .bottom-content {
     margin-top: 20px;
 }
