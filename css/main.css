@@ -5,7 +5,7 @@ body {
 }
 .fake-code-block {
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-    width: 300px;
+    width: 310px;
     padding: 9.5px;
     font-size: 13px;
     line-height: 1.428571429;
@@ -16,8 +16,9 @@ body {
     margin: 0 auto;
 }
 
-.fake-code-block ul.list-unstyled {
+.fake-code-block ol {
     margin-bottom: 0px;
+    line-height: 2em;
 }
 
 .list-inline>li {
@@ -42,7 +43,7 @@ body {
 }
 
 header {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -58,4 +59,11 @@ footer {
 a,
 a:hover {
     color: #4699c4;
+}
+
+em {
+    font-size: 1.5em;
+}
+strong {
+    font-size: 1.2em;
 }
